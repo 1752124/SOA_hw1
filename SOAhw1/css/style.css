@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	 /* background: linear-gradient(#a5dee4, #78c2c4);  
+	 	background-repeat: no-repeat;
+	 	-webkit-background-size: 100%;
+	 	background-size: cover;
+	 	background-attachment: fixed;  */
+	 	background-color: #a5dee4;
+	height:100%;
+	width: 100%;
+	position: absolute;
+	overflow-y:hidden;
+	overflow-x: hidden;
+}
+
+.title{
+	margin: 0 auto;
+	margin-top: 40px;
+	text-align: center; 
+	font-family:  'Rochester', cursive;
+	font-size:3em;
+	color: #808f7c;
+}
+
+.content{
+	height: 100%;
+	width: 100%;
+
+}
+
+.mainDiv{
+	height: 100%;
+	width: 100%;
+}
+
+.search-before{
+	position: relative;
+	/*top: 35%;*/
+
+	transform: translateY(-50%);
+}
+
+.getRandom{
+	font-size: 1.5em;
+	color: #fff;
+	display: inline;
+}
+.getRandom:link{
+	color:#fff;
+	text-decoration: none;
+}
+
+.getRandom:visited{
+	color:#fff;
+	text-decoration: none;
+}
+
+.getRandom:hover{
+	color: #f0a986;
+	text-decoration: none;
+}
+
+.getRandom:active{
+	color:#fff;
+	text-decoration: none;
+}
+
+.search-ico{
+	margin-top: 0.8em;
+	width: 1.8em;
+}
+
+.search-title{
+	width: 14em;
+	outline: none;
+	padding: 10px 20px;
+	padding-right: 3em;
+	border-radius: 30px;
+	border-color: #f0a986;
+	font-size: 1.2em;
+	border-style: solid;
+	display: inline;
+}
+
+.search-clear{
+	position: relative;
+	margin-left: -2em;
+	bottom: 2px;
+}
+
+.clear-ico{
+	display: none;
+	width: 1.5em;
+}
+
+.search-search{
+	font-size:16px;
+	font-weight:bolder;
+	opacity:0.7;
+}
+
+.search-text{
+	width: 18em;
+	margin-top: 0.25em;
+	marginn-bottom: 0.3em;
+	margin-left:0.1em;
+	margin-right:0.1em;
+	display: inline;
+	display: none;
+}
+
+.itro{
+	margin-top: 0.8em;
+	color: #fff;
+	font-size: 1.2em;
+}
+
+.searching{
+	position: relative;
+	display: none;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+}
+
+.search-li{
+	list-style: none;
+	background-color: #6699a1; 
+	padding: 10px 20px;
+	margin-bottom: 20px;
+	border-left: solid 5px #fff; 
+}
+
+.search-h3{
+	color: #fff;
+}
+
+.search-abs{
+	color: #a5dee4;
+	font-size: 1.2em;
+}
+
+.search-time{
+	color: #fbe251;
+}
+
+.search-link:link{
+	text-decoration: none;
+}
+.search-link:visited{
+	text-decoration: none;
+}
+.search-link:hover{
+	text-decoration: none;
+
+}
+.search-link:active{
+	text-decoration: none;
+}
+
+.search-li:hover{
+	border-left: solid 5px #f0a986; 
+}
